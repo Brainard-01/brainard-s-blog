@@ -1,0 +1,225 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+     :root {
+        --primary-color: #333;
+        --light-color: #fff;
+        --max-width: 1000px;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.3;
+        padding: 2rem;
+    }
+    
+    h3 {
+        margin: 1rem 0;
+    }
+    /* utilities */
+    
+    .card {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-gap: 2rem;
+    }
+    
+    .img {
+        display: flex;
+        flex: 1;
+        align-items: center;
+    }
+    
+    .main-text {
+        font-weight: bold;
+    }
+    
+    .container {
+        max-width: var(--max-width);
+        margin: auto;
+    }
+    
+    .latest-news-container {
+        max-width: 900px;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    
+    .header {
+        max-width: 900px;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    
+    .btn {
+        display: inline;
+        border: #333 solid 1px;
+        border-radius: 10px;
+        padding: 0 .5rem;
+    }
+    
+    #learn-more {
+        margin: 3rem;
+        text-align: center;
+    }
+    
+    .latest-news-grid a {
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn:hover {
+        opacity: 0.75;
+    }
+    
+    a {
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+    
+    .l-head {
+        font-size: 3rem;
+    }
+    /* navbar */
+    
+    #main-nav {
+        margin: auto;
+        background: var(--light-color);
+        max-width: var(--max-width);
+    }
+    
+    #main-nav .navbar-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+    }
+    
+    #main-nav .container ul {
+        display: flex;
+        list-style: none;
+        justify-content: end;
+    }
+    
+    #main-nav .container ul li {
+        padding: .75rem;
+    }
+    
+    .logo {
+        width: 140px;
+    }
+    /* honme */
+    
+    .small {
+        font-size: .75rem;
+    }
+    
+    #home .small {
+        margin-top: 1rem;
+    }
+    
+    #home .container>.small,
+    #home .container h2 {
+        align-self: center;
+        text-align: center;
+    }
+    
+    .home-grid {
+        margin: auto;
+        padding: 2rem 0;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-gap: 2rem;
+        border-bottom: 0.3px solid #333;
+    }
+    
+    .home-grid .span {
+        padding-top: 1rem;
+    }
+    /* latest news */
+    
+    #latest-news .small-icon {
+        width: 5%;
+        margin-right: .5rem;
+    }
+    
+    #latest-news .latest-news-grid {
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4rem;
+    }
+    
+    .reduce-size {
+        height: 200px;
+        background-size: cover;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .box {
+        margin: 5rem 0;
+        background: url(/img/box.png) no-repeat center center/cover;
+        color: #fff;
+        padding: 3rem 0;
+    }
+    
+    .box-text {
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    .form input {
+        padding: .3rem;
+        margin: 0 1rem;
+        border-radius: 15px;
+    }
+    
+    .green-btn {
+        font-size: .75rem;
+        padding: .4rem;
+        background: rgb(55, 253, 55);
+        border-radius: 13px;
+    }
+    
+    .form .green-btn:hover {
+        opacity: 0.8;
+    }
+    /* footer */
+    
+    .footer-grid {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        grid-gap: 5rem;
+    }
+    
+    .footer-grid .logo {
+        margin-bottom: 1.5rem;
+    }
+    
+    .footer-grid h4 {
+        margin-bottom: 1.5rem;
+    }
+    
+    .footer-grid ul {
+        list-style: none;
+        line-height: 3;
+    }
+    
+    #learn-more .btn {
+        padding: .5rem 1rem;
+    }

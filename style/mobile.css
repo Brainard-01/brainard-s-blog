@@ -1,0 +1,119 @@
+    /* navbar */
+    
+    .container {
+        max-width: 768px;
+    }
+    
+    h3 {
+        font-size: 1.2rem
+    }
+    
+    #main-nav {
+        padding: .5rem;
+    }
+    
+    #main-nav .navbar-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    
+    #main-nav .container ul {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #main-nav .container ul li {
+        margin-top: .3rem;
+        border-bottom: 1px dotted #333;
+        font-size: .75rem;
+    }
+    
+    #main-nav .container ul li:last-child {
+        border: none;
+    }
+    
+    .logo {
+        width: 100px;
+    }
+    /* home */
+    
+    .small {
+        font-size: .6rem;
+    }
+    
+    #home .container h2 {
+        font-size: 2rem;
+    }
+    
+    .home-grid {
+        padding: 2rem 0;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    
+    .home-grid .span {
+        padding: 2rem 0;
+    }
+    /* latest news */
+    
+    #latest-news {
+        margin: auto;
+        align-items: center;
+        justify-self: center;
+    }
+    
+    #latest-news .small-icon {
+        width: 3%;
+        margin-right: .5rem;
+    }
+    
+    #latest-news .latest-news-grid {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #home .reduce-size {
+        max-width: 100%;
+    }
+    
+    .reduce-size {
+        margin: auto;
+        max-width: 50%;
+        background-size: cover;
+    }
+    
+    .box {
+        margin: 3rem 0;
+        text-align: center;
+        background: url(/img/box.png) no-repeat center center/cover;
+        color: #fff;
+        padding: 1rem 0;
+    }
+    /* footer */
+    
+    #footer {
+        font-size: .75rem;
+    }
+    
+    #footer .footer-grid {
+        text-align: center;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 3rem;
+    }
+    
+    .display-none {
+        display: none;
+    }

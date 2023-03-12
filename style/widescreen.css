@@ -1,0 +1,55 @@
+/* home */
+
+.home-grid .span {
+    padding: 2rem 0;
+}
+
+
+/* latest news */
+
+#latest-news {
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-self: center;
+}
+
+#latest-news .latest-news-grid {
+    /* margin: auto; */
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#home .reduce-size {
+    max-width: 100%;
+    background-size: cover;
+}
+
+.reduce-size {
+    margin: auto;
+    max-width: 50%;
+    background-size: cover;
+}
+
+.box {
+    margin: 3rem 0;
+    text-align: center;
+    background: url(/img/box.png) no-repeat center center/cover;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+
+/* footer */
+
+#footer .footer-grid {
+    display: flex;
+}
+
+
+/* 
+.display-none {
+    display: none;
+} */
